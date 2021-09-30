@@ -18,6 +18,11 @@ Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
 
+Vue.component(
+  "base-navbar",
+  require("@/components/basenavbar/Index.vue").default
+);
+
 new Vue({
   router,
   store,
