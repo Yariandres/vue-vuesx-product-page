@@ -1,13 +1,13 @@
 <template>
-  <div class="d-flex justify-content-center">
+  <div class="d-flex flex-wrap gap-4" :class="cardsDisplay">
     <b-card
       title="Card Title"
       img-src="https://picsum.photos/600/300/?image=25"
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 35rem"
-      class="m-2"
+      style="max-width: 30rem"
+      class="m-3"
     >
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk
@@ -23,8 +23,8 @@
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 35rem"
-      class="m-2"
+      style="max-width: 30rem"
+      class="m-3"
     >
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk
@@ -40,8 +40,8 @@
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 35rem"
-      class="m-2"
+      style="max-width: 30rem"
+      class="m-3"
     >
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk
@@ -54,8 +54,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["cardsDisplay"],
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.list-view {
+  align-items: center;
+}
 </style>

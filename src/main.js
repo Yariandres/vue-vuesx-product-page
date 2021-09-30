@@ -22,9 +22,15 @@ Vue.component(
   "base-navbar",
   require("@/components/basenavbar/Index.vue").default
 );
+
 Vue.component(
   "base-card-component",
-  require("@/components/basecardcomponent/Index.vue").default
+  require("@/components/basecardComponent/Index.vue").default
+);
+
+Vue.component(
+  "base-toggle-view-component",
+  require("@/components/baseToggleViewComponent/Index.vue").default
 );
 
 new Vue({
