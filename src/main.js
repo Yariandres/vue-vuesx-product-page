@@ -22,6 +22,10 @@ Vue.component(
   "base-navbar",
   require("@/components/basenavbar/Index.vue").default
 );
+Vue.component(
+  "base-card-component",
+  require("@/components/basecardcomponent/Index.vue").default
+);
 
 new Vue({
   router,

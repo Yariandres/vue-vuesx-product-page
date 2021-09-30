@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <h1>This is ther home page!</h1>
-  </div>
+  <b-container>
+    <base-card-component></base-card-component>
+  </b-container>
 </template>
-
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
