@@ -1,15 +1,6 @@
 <template>
   <div id="app">
-    <base-navbar>
-      <span slot="home">
-        <router-link to="/">Home</router-link>
-      </span>
-
-      <span slot="form">
-        <router-link to="/form">Form</router-link>
-      </span>
-    </base-navbar>
-
+    <base-navbar></base-navbar>
     <router-view />
   </div>
 </template>
